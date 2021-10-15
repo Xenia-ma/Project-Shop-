@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Shop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -20,7 +24,7 @@
                     <form action="#" class="page-header-search-form">
                         <input class="page-header-search-button" id="search-button" type="search">
                         <label for="search-button">
-                            <!-- Здесь будет изображение кнопки поиска -->
+                            <img class="search-button" src="img/search.svg" alt="Поиск">
                         </label>
                     </form>
                 </div>
@@ -40,7 +44,7 @@
             </div>
         </div>
     </header>
-    <section class="promo ">
+    <section class="promo">
         <div class="container promo-container">
             <div class="promo-wrp">
                 <h2 class="promo-title">the brand</h2>
@@ -53,94 +57,118 @@
 
     <main class="content">
         <div class="container container-categories">
-            <div class="content-categories-box">
-                <div class="content-categories-box-clothes">
-                    <!-- открыли общий блок для 3 изображений  -->
-                    <div class="clothes women">
-                        <!-- блок для 1/3  -->
+            <ul class="content-categories-box-list">
+                <li class="content-categories-box-clothes">
+                    <a class="list women" href="#">
                         <h3 class="categories-txt">30% off
-                            <span class="categories-txt-2">for women</span>
+                            <span class="categories-txt-pink">for women</span>
                         </h3>
-                    </div>
-                    <!-- закрыли 1/3 -->
-                    <div class="clothes men">
-                        <!-- блок 2/3 -->
+                    </a>
+                </li>
+                <li class="content-categories-box-clothes">
+
+                    <a class=" list men" href="#">
                         <h3 class="categories-txt">hot deal
-                            <span class="categories-txt-2">for men</span>
+                            <span class="categories-txt-pink">for men</span>
                         </h3>
-                    </div>
-                    <!-- закрыли 2/3  -->
-                    <div class="clothes kids">
-                        <!-- блок для детей  -->
+                    </a>
+                </li>
+                <li class="content-categories-box-clothes">
+                    <a class=" list kids" href="#">
                         <h3 class="categories-txt">new arrivals
-                            <span class="categories-txt-2">for kids</span>
+                            <span class="categories-txt-pink">for kids</span>
                         </h3>
-                    </div>
-                </div>
-                <!-- закрыли родительский блок для 3 изображений -->
-                <div class="content-categories-box accesories">
-                    <h3 class="categories-txt">luxirous&trandy
-                        <span class="categories-txt-2">accesories</span>
-                    </h3>
-                </div>
-            </div>
+                    </a>
+                </li>
+                <li class="content-categories-box-accesories">
+                    <a class="accesories" href="#">
+                        <h3 class="categories-txt">luxirous&trandy
+                            <span class="categories-txt-pink">accesories</span>
+                        </h3>
+                    </a>
+                </li>
+
         </div>
         <section class="product">
             <h3 class="product-heading">Fetured Items</h3>
             <p class="product-txt">Shop for items based on what we featured in this week</p>
-            <div class="product-item card-box">
-                <article class="card">
-                    <img class="product-item-card-box-photo" src="img/card1.png" alt="photo">
-                    <span class="product-item-txt">ellery x m'o capsule</span>
-                    <p class="product-item-description"> Known for her sculptural takes on&nbsp;traditional
-                        tailoring,Australian
-                        arbiter of&nbsp;cool Kym Ellery teams up&nbsp;with Moda Operandi.</p>
-                    <span class="price">$52.00</span>
-                </article>
-                <article class="card">
-                    <img class="product-item-card-box-photo" src="img/card2.png" alt="photo">
-                    <span class="product-item-txt">ellery x m'o capsule</span>
-                    <p class="product-item-description"> Known for her sculptural takes on&nbsp;traditional
-                        tailoring,Australian
-                        arbiter of&nbsp;cool Kym Ellery teams up&nbsp;with Moda Operandi.</p>
-                    <span class="price">$52.00</span>
-                </article>
-                <article class="card">
-                    <img class="product-item-card-box-photo" src="img/card3.png" alt="photo">
-                    <span class="product-item-txt">ellery x m'o capsule</span>
-                    <p class="product-item-description"> Known for her sculptural takes on&nbsp;traditional
-                        tailoring,Australian
-                        arbiter of&nbsp;cool Kym Ellery teams up&nbsp;with Moda Operandi.</p>
-                    <span class="price">$52.00</span>
-                </article>
-                <article class="card">
-                    <img class="product-item-card-box-photo" src="img/card4.png" alt="photo">
-                    <span class="product-item-txt">ellery x m'o capsule</span>
-                    <p class="product-item-description"> Known for her sculptural takes on&nbsp;traditional
-                        tailoring,Australian
-                        arbiter of&nbsp;cool Kym Ellery teams up&nbsp;with Moda Operandi.</p>
-                    <span class="price">$52.00</span>
-                </article>
-                <article class="card">
-                    <img class="product-item-card-box-photo" src="img/card5.png" alt="photo">
-                    <span class="product-item-txt">ellery x m'o capsule</span>
-                    <p class="product-item-description"> Known for her sculptural takes on&nbsp;traditional
-                        tailoring,Australian
-                        arbiter of&nbsp;cool Kym Ellery teams up&nbsp;with Moda Operandi.</p>
-                    <span class="price">$52.00</span>
-                </article>
-                <article class="card">
-                    <img class="product-item-card-box-photo" src="img/card6.png" alt="photo">
-                    <span class="product-item-txt">ellery x m'o capsule</span>
-                    <p class="product-item-description"> Known for her sculptural takes on&nbsp;traditional
-                        tailoring,Australian
-                        arbiter of&nbsp;cool Kym Ellery teams up&nbsp;with Moda Operandi.</p>
-                    <span class="price">$52.00</span>
-                </article>
-            </div>
-            <div class="button">
-                <a href="#" class="bb">Browse All Product</a>
-            </div>
+            <ul class="product-item card-box">
+                <li class="product-item-list">
+                    <article class="card">
+                        <a class="card" href="#">
+                            <img class="product-item-card-box-photo" src="img/card1.png" alt="photo">
+                            <span class="product-item-txt">ellery x m'o capsule</span>
+                            <p class="product-item-description"> Known for her sculptural takes on&nbsp;traditional
+                                tailoring,Australian
+                                arbiter of&nbsp;cool Kym Ellery teams up&nbsp;with Moda Operandi.</p>
+                            <span class="price">$52.00</span>
+                        </a>
+                    </article>
+
+                <li class="product-item-list">
+                    <article class="card">
+                        <a class="card" href="#">
+                            <img class="product-item-card-box-photo" src="img/card2.png" alt="photo">
+                            <span class="product-item-txt">ellery x m'o capsule</span>
+                            <p class="product-item-description"> Known for her sculptural takes on&nbsp;traditional
+                                tailoring,Australian
+                                arbiter of&nbsp;cool Kym Ellery teams up&nbsp;with Moda Operandi.</p>
+                            <span class="price">$52.00</span>
+                        </a>
+                    </article>
+                </li>
+                <li class="product-item-list">
+                    <article class="card">
+                        <a class="card" href="#">
+                            <img class="product-item-card-box-photo" src="img/card3.png" alt="photo">
+                            <span class="product-item-txt">ellery x m'o capsule</span>
+                            <p class="product-item-description"> Known for her sculptural takes on&nbsp;traditional
+                                tailoring,Australian
+                                arbiter of&nbsp;cool Kym Ellery teams up&nbsp;with Moda Operandi.</p>
+                            <span class="price">$52.00</span>
+                        </a>
+                    </article>
+                </li>
+                <li class="product-item-list">
+                    <article class="card">
+                        <a class="card" href="#">
+                            <img class="product-item-card-box-photo" src="img/card4.png" alt="photo">
+                            <span class="product-item-txt">ellery x m'o capsule</span>
+                            <p class="product-item-description"> Known for her sculptural takes on&nbsp;traditional
+                                tailoring,Australian
+                                arbiter of&nbsp;cool Kym Ellery teams up&nbsp;with Moda Operandi.</p>
+                            <span class="price">$52.00</span>
+                        </a>
+                    </article>
+                </li>
+                <li class="product-item-list">
+                    <article class="card">
+                        <a class="card" href="#">
+                            <img class="product-item-card-box-photo" src="img/card5.png" alt="photo">
+                            <span class="product-item-txt">ellery x m'o capsule</span>
+                            <p class="product-item-description"> Known for her sculptural takes on&nbsp;traditional
+                                tailoring,Australian
+                                arbiter of&nbsp;cool Kym Ellery teams up&nbsp;with Moda Operandi.</p>
+                            <span class="price">$52.00</span>
+                        </a>
+                    </article>
+                </li>
+                <li class="product-item-list">
+                    <article class="card">
+                        <a class="card" href="#">
+                            <img class="product-item-card-box-photo" src="img/card6.png" alt="photo">
+                            <span class="product-item-txt">ellery x m'o capsule</span>
+                            <p class="product-item-description"> Known for her sculptural takes on&nbsp;traditional
+                                tailoring,Australian
+                                arbiter of&nbsp;cool Kym Ellery teams up&nbsp;with Moda Operandi.</p>
+                            <span class="price">$52.00</span>
+                        </a>
+                    </article>
+                </li>
+                </div>
+                <div class="button">
+                    <a href="#" class="bb">Browse All Product</a>
+                </div>
         </section>
 
 
@@ -148,6 +176,7 @@
             <div class="container benefits-container">
                 <div class="benefits-item">
                     <img src="img/delivery.svg" alt="delivery" height="32">
+                    <!-- Изображение будет реализовно через svg -->
                     <h6 class="benefits-heading">Free Delivery</h6>
                     <p class="benefits_text">Worldwide delivery on&nbsp;all. Authorit tively morph <br> next-generation
                         innov
@@ -156,7 +185,7 @@
                 </div>
                 <div class="benefits-item ">
                     <img src="img/sales.svg" alt="sales" height="32">
-                    <!--Знаю что в данном случае изображение не контекстное, а декоративное, в дальнейшем буду реализовывать по-другому,через svg, но пока оставляю так -->
+                    <!-- Изображение будет реализовно через svg -->
                     <h6 class="benefits-heading">Sales & discounts</h6>
                     <p class="benefits_text">Worldwide delivery on&nbsp;all. Authorit tively morph <br> next-generation
                         innov
@@ -165,6 +194,7 @@
                 </div>
                 <div class="benefits-item">
                     <img src="img/quality.svg" alt="quality" height="32">
+                    <!-- Изображение будет реализовно через svg -->
                     <h6 class="benefits-heading">Quality assurance</h6>
                     <p class="benefits_text">Worldwide delivery on&nbsp;all. Authorit tively morph <br> next-generation
                         innov
@@ -176,7 +206,8 @@
         <section class="subscription">
             <div class="container subscription-container">
                 <div class="subscription-feedback">
-                    <img src="img/photo.svg" alt="feedback" height="150">
+                    <!-- <img src="img/photo.svg" alt="feedback" width="140" height="150"> -->
+                    <!-- Изображение будет реализовно через svg -->
 
                     <p class="feedback">&laquo;Vestibulum quis porttitor dui! Quisque viverra nunc&nbsp;mi,
                         a&nbsp;pulvinar
@@ -203,13 +234,16 @@
                 <p class="footer-rights">&copy; 2021 Brand All Rights Reserved.</p>
             </div>
             <div class="footer-socials">
-                <a href="#"><img class="icons" src="img/facebook.svg" alt="facebook"></a>
-                <a href="#"><img class="icons" src="img/instagram.svg" alt="instagram"></a>
-                <a href="#"><img class="icons" src="img/pinterest.svg" alt="pinterest"></a>
-                <a href="#"><img class="icons" src="img/twitter.svg" alt="twitter"></a>
+                <ul class="socials">
+                    <li><a href="#"><span class="fab fa-facebook-square fa-2x"></span></a></li>
+                    <li><a href="#"><span class="fab fa-instagram-square fa-2x"></span></a></li>
+                    <li><a href="#"><span class="fab fa-pinterest-square fa-2x"></span></a></li>
+                    <li><a href="#"><span class="fab fa-twitter-square fa-2x"></span></a></li>
+                </ul>
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>
